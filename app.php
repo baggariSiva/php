@@ -72,7 +72,9 @@
             Your IP <strong class="subVal" id="yourIP"><?php echo $nip; ?></strong>
         </p>
 
-
+         <p class="app-info-block">
+            Your Location <strong class="subVal" id="location"><?php echo $ip_result['country_code']; ?> , <?php echo $ip_result['city']; ?></strong>
+        </p>
 
         <p class="app-info-block">
             Latency to server <strong class="subVal" id="latency">? ms</strong>
